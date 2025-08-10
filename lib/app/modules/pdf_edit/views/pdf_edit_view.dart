@@ -12,7 +12,7 @@ class PdfEditView extends GetView<PdfEditController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('PDF Editor (GetX)'),
+        title: const Text('PDF Editor'),
         actions: [
           IconButton(
             icon: const Icon(Icons.save),
