@@ -15,6 +15,7 @@ import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter_file_dialog/flutter_file_dialog.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:pdfx/pdfx.dart';
+
 class PdfEditController extends GetxController {
   // PdfController for viewing PDF (from pdfx package)
   late pdfx.PdfControllerPinch pdfController;
@@ -30,6 +31,7 @@ class PdfEditController extends GetxController {
     // Load PDF for viewing
     pdfController = pdfx.PdfControllerPinch(
       document: pdfx.PdfDocument.openAsset('assets/who_dmg.pdf'),
+
     );
   }
 
